@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/et_syllabus_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Class 1 Syllabus"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        android:gravity="center"
+        android:layout_marginBottom="40dp"
+        android:layout_marginTop="40dp"
+        android:background="@drawable/border"/>
+
+    <ImageView
+        android:id="@+id/imageViewSyllabus"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_gravity="center"
+        android:contentDescription="timetable_preview"
+        android:scaleType="centerCrop"
+        android:background="@android:color/darker_gray"/>
+
+    <Button
+        android:id="@+id/buttonSelectc1Image"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Select Image"
+        android:layout_marginTop="16dp"/>
+
+    <Button
+        android:id="@+id/buttonUpload1Syllabus"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Upload/Update Syllabus"
+        android:layout_marginTop="16dp"/>
+</LinearLayout>

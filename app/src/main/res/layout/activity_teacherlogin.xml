@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:scrollbars="vertical"
+    tools:context=".teacherlogin"
+    tools:ignore="VisualLintBounds"
+    android:background="@drawable/border">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="match_parent"
+            android:layout_height="120dp"
+            android:layout_marginTop="20dp"
+            android:src="@drawable/teacherlogo"
+            tools:ignore="ContentDescription,ImageContrastCheck" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:layout_marginTop="20dp"
+            android:text="@string/teacher_login"
+            android:textAlignment="center"
+            android:textColor="@color/purple"
+            android:textSize="25sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:layout_marginTop="20dp"
+            android:text="@string/fill_all_the_details"
+            android:textAlignment="center"
+            android:textSize="20sp"
+            android:textColor="@color/black"
+            tools:ignore="TextSizeCheck"
+            />
+
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:autofillHints="name"
+            android:id="@+id/TeacherNameEditText"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/border"
+            android:hint="@string/enter_your_name"
+            android:textColor="@color/black"
+            android:inputType="textPersonName"
+            android:paddingStart="20dp"
+            android:textColorHint="@color/black"
+            tools:ignore="RtlSymmetry,VisualLintTextFieldSize" />
+
+
+        <EditText
+            android:id="@+id/ClassTeacherEditText"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/border"
+            android:hint="@string/class_teacher_of"
+            android:textColor="@color/black"
+            android:inputType="number|text"
+            android:paddingStart="20dp"
+            android:textColorHint="@color/black"
+            tools:ignore="Autofill,RtlSymmetry,VisualLintTextFieldSize" />
+
+
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/border"
+            android:id="@+id/ageEditText"
+            android:textColor="@color/black"
+            android:hint="@string/age"
+            android:inputType="number"
+            android:paddingStart="20dp"
+            android:textColorHint="@color/black"
+            tools:ignore="Autofill,RtlSymmetry,TextContrastCheck,VisualLintTextFieldSize" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/border"
+            android:id="@+id/birthDateEditText"
+            android:inputType="date"
+            android:paddingStart="20dp"
+            android:hint="@string/birth_date"
+            android:textColor="@color/black"
+            android:textColorHint="@color/black"
+            tools:ignore="Autofill,RtlSymmetry,VisualLintTextFieldSize" />
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/border"
+            android:id="@+id/experienceEditText"
+            android:hint="@string/year_of_experience"
+            android:inputType="number"
+            android:textColor="@color/black"
+            android:paddingStart="20dp"
+            android:textColorHint="@color/black"
+            tools:ignore="Autofill,RtlSymmetry,TextContrastCheck,VisualLintTextFieldSize" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:id="@+id/TeacherIdEditText"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/border"
+            android:hint="@string/teacher_id"
+            android:textColor="@color/black"
+            android:inputType="number"
+            android:paddingStart="20dp"
+            android:textColorHint="@color/black"
+            tools:ignore="Autofill,RtlSymmetry,TextContrastCheck,VisualLintTextFieldSize" />
+
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="@drawable/border"
+            android:autofillHints="emailAddress"
+            android:hint="@string/enter_email"
+            android:layout_marginTop="20dp"
+            android:id="@+id/emailEditText"
+            android:inputType="textEmailAddress"
+            android:textColor="@color/black"
+            android:textColorHint="@color/black"
+            android:drawableStart="@drawable/baseline_email_24"
+            android:drawablePadding="30dp"
+            android:paddingStart="20dp"
+            tools:ignore="RtlSymmetry,VisualLintTextFieldSize" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="@drawable/border"
+            android:autofillHints="password"
+            android:id="@+id/TeditTextPassword"
+            android:hint="@string/password"
+            android:layout_marginTop="20dp"
+            android:textColor="@color/black"
+            android:textColorHint="@color/black"
+            android:drawableStart="@drawable/baseline_lock_24"
+            android:drawablePadding="30dp"
+            android:paddingStart="20dp"
+            tools:ignore="RtlSymmetry,VisualLintTextFieldSize"
+            android:inputType="textPassword"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="@drawable/border"
+            android:autofillHints="re-password"
+            android:hint="@string/re_password"
+            android:layout_marginTop="20dp"
+            android:textColor="@color/black"
+            android:id="@+id/rePasswordEditText"
+            android:textColorHint="@color/black"
+            android:drawableStart="@drawable/baseline_lock_24"
+            android:drawablePadding="30dp"
+            android:paddingStart="20dp"
+            tools:ignore="RtlSymmetry,VisualLintTextFieldSize"
+            android:inputType="textPassword"/>
+
+
+        <Button
+            android:id="@+id/next"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:text="@string/nextb"
+            android:textSize="16sp"
+            tools:ignore="VisualLintButtonSize"
+            android:layout_marginBottom="20dp"
+            android:layout_marginTop="30dp"/>
+
+    </LinearLayout>
+
+</ScrollView>

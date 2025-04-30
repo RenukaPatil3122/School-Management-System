@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <uses-permission
+        android:name="android.permission.INTERNET"
+        android:maxSdkVersion="32" />
+    <uses-permission
+        android:name="android.permission.READ_EXTERNAL_STORAGE"
+        android:maxSdkVersion="32" />
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.SchoolManagement"
+        tools:targetApi="31">
+        <activity
+            android:name=".student_syllabus"
+            android:exported="false" />
+        <activity
+            android:name=".view_class4_syllabus"
+            android:exported="false" />
+        <activity
+            android:name=".view_class3_syllabus"
+            android:exported="false" />
+        <activity
+            android:name=".view_class2_syllabus"
+            android:exported="false" />
+        <activity
+            android:name=".view_class1_syllabus"
+            android:exported="false" />
+        <activity
+            android:name=".view_jrkg_syllabus"
+            android:exported="false" />
+        <activity
+            android:name=".view_nursury_syllabus"
+            android:exported="false" />
+        <activity
+            android:name=".view_srkg_syllabus"
+            android:exported="false" />
+        <activity
+            android:name=".view_playsyllabus"
+            android:exported="false" />
+        <activity
+            android:name=".class4"
+            android:exported="false" />
+        <activity
+            android:name=".class3"
+            android:exported="false" />
+        <activity
+            android:name=".class2"
+            android:exported="false" />
+        <activity
+            android:name=".class1"
+            android:exported="false" />
+        <activity
+            android:name=".srkg"
+            android:exported="false" />
+        <activity
+            android:name=".jrkg"
+            android:exported="false" />
+        <activity
+            android:name=".Nursery"
+            android:exported="false" />
+        <activity
+            android:name=".Playgroup_syllabus"
+            android:exported="false" />
+        <activity
+            android:name=".select_your_class"
+            android:exported="false" />
+        <activity
+            android:name=".trackattendance"
+            android:exported="false" />
+        <activity
+            android:name=".previous_school_details"
+            android:exported="false" />
+        <activity
+            android:name=".syllabus"
+            android:exported="false" />
+        <activity
+            android:name=".AddHomework"
+            android:exported="false" />
+        <activity
+            android:name=".tackAttendence"
+            android:exported="false" />
+        <activity
+            android:name=".noticepage"
+            android:exported="false" />
+        <activity
+            android:name=".Timetable"
+            android:exported="false" />
+        <activity
+            android:name=".viewhomework"
+            android:exported="false" />
+        <activity
+            android:name=".viewsyllabus"
+            android:exported="false" />
+        <activity
+            android:name=".viewattendence"
+            android:exported="false" />
+        <activity
+            android:name=".viewnotice"
+            android:exported="false" />
+        <activity
+            android:name=".viewtimetable"
+            android:exported="false" />
+        <activity
+            android:name=".tmainpage"
+            android:exported="false" />
+        <activity
+            android:name=".tlogin"
+            android:exported="false" />
+        <activity
+            android:name=".mainpage"
+            android:exported="false" />
+        <activity
+            android:name=".login"
+            android:exported="false" />
+        <activity
+            android:name=".Againloginasa"
+            android:exported="false" />
+        <activity
+            android:name=".studentlogin"
+            android:exported="false" />
+        <activity
+            android:name=".teacherlogin"
+            android:exported="false" />
+        <activity
+            android:name=".loginasa"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

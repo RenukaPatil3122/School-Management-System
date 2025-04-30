@@ -1,0 +1,36 @@
+# Gradle
+.gradle/
+build/
+*/build/
+captures/
+.externalNativeBuild/
+.cxx/
+
+# Android Studio
+*.iml
+.idea/
+.idea/caches/
+.idea/libraries/
+.idea/modules.xml
+.idea/workspace.xml
+.idea/navEditor.xml
+.idea/assetWizardSettings.xml
+
+# Local configuration (should never be committed)
+local.properties
+
+# macOS / Windows / Linux OS files
+.DS_Store
+Thumbs.db
+ehthumbs.db
+
+# Java
+*.class
+
+# APKs and artifacts
+*.apk
+*.ap_
+*.aab
+
+# Logs
+*.log

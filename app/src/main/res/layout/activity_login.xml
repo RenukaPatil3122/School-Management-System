@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".login"
+    android:orientation="vertical"
+    android:background="@drawable/border">
+
+    <TextView
+        android:layout_gravity="center"
+        android:id="@+id/person"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/baseline_person_24" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="50dp"
+        android:gravity="center"
+        android:text="@string/login"
+        android:textColor="@color/purple"
+        android:textSize="34sp"
+        tools:ignore="TextSizeCheck" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:id="@+id/etName"
+        android:background="@drawable/border"
+        android:autofillHints="name"
+        android:hint="@string/student_name"
+        android:layout_marginTop="50dp"
+        android:inputType="textEmailAddress"
+        android:textColor="@color/black"
+        android:textColorHint="@color/black"
+        android:drawableStart="@drawable/baseline_person_24"
+        android:drawablePadding="30dp"
+        android:paddingStart="20dp"
+        tools:ignore="RtlSymmetry,VisualLintTextFieldSize" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:id="@+id/etPassword"
+        android:background="@drawable/border"
+        android:autofillHints="password"
+        android:hint="@string/password"
+        android:layout_marginTop="50dp"
+        android:textColor="@color/black"
+        android:textColorHint="@color/black"
+        android:drawableStart="@drawable/baseline_lock_24"
+        android:drawablePadding="30dp"
+        android:paddingStart="20dp"
+        tools:ignore="RtlSymmetry,VisualLintTextFieldSize"
+        android:inputType="textPassword"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:id="@+id/blogin"
+        android:layout_marginTop="30dp"
+        android:fontFamily="monospace"
+        android:text="@string/login"
+        android:textColorLink="@color/purple"
+        android:textSize="16sp"
+        tools:ignore="DuplicateSpeakableTextCheck,VisualLintButtonSize" />
+
+</LinearLayout>

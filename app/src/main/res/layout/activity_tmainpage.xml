@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/marksheet"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:scrollbars="vertical"
+    tools:context=".Marksheet"
+    tools:ignore="VisualLintBounds"
+    android:background="@drawable/border">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+<TextView
+    android:layout_width="100dp"
+    android:layout_height="100dp"
+    android:layout_gravity="center"
+    android:background="@drawable/baseline_person_24"
+    android:layout_marginTop="60dp"
+    android:id="@+id/person"
+    />
+<TextView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="@string/teacher_login"
+    android:textAlignment="center"
+    android:textSize="30sp"
+    android:layout_marginTop="10dp"
+    android:background="@drawable/border"
+    />
+
+<Button
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/tmb"
+    android:layout_marginTop="50dp"
+    android:layout_marginStart="30dp"
+    android:layout_marginEnd="20dp"
+    android:text="@string/time_table"
+    android:textSize="20sp"
+
+    />
+<Button
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/tmb1"
+    android:layout_marginTop="40dp"
+    android:layout_marginStart="30dp"
+    android:layout_marginEnd="20dp"
+    android:text="@string/notice"
+    android:textSize="20sp"
+
+    />
+<Button
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/tmb2"
+    android:layout_marginTop="40dp"
+    android:layout_marginStart="30dp"
+    android:layout_marginEnd="20dp"
+    android:text="@string/attendance"
+    android:textSize="20sp"
+
+    />
+<Button
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/tmb3"
+    android:layout_marginTop="40dp"
+    android:layout_marginStart="30dp"
+    android:layout_marginEnd="20dp"
+    android:text="@string/homework"
+    android:textSize="20sp"
+    />
+<Button
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/tmb4"
+    android:layout_marginTop="40dp"
+    android:layout_marginStart="30dp"
+    android:layout_marginEnd="20dp"
+    android:text="@string/syllabus"
+    android:textSize="20sp"
+    />
+
+        <!--
+<Button
+    android:id="@+id/tmb5"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="40dp"
+    android:layout_marginStart="30dp"
+    android:layout_marginEnd="20dp"
+    android:text="@string/marksheet"
+    android:textSize="20sp"
+/>
+-->
+
+
+
+
+    </LinearLayout>
+
+</ScrollView>

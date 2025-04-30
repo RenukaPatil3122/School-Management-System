@@ -1,0 +1,81 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="app_name">School Management</string>
+    <string name="login_as_a">login as a</string>
+    <string name="teacher">Teacher</string>
+    <string name="student">Student</string>
+    <string name="school_management_app">School Management App</string>
+    <string name="todo">Todo</string>
+    <string name="create_new_accounte">Create new account</string>
+    <string name="login_to_account">Login to account</string>
+    <string name="teacher_login">Teacher login</string>
+    <string name="enter_your_name">Enter your name</string>
+    <string name="fill_all_the_details">Fill all the details</string>
+    <string name="class_teacher_of">Class teacher of</string>
+    <string name="age">Age</string>
+    <string name="teacher_id">Teacher Id</string>
+    <string name="enter_email">Enter Email</string>
+    <string name="password">Password</string>
+    <string name="re_password">re password</string>
+    <string name="nextb">Next</string>
+    <string name="birth_date">Birth date</string>
+    <string name="year_of_experience">Year of experience</string>
+    <string name="father_name">Father name</string>
+    <string name="mother_name">Mother name</string>
+    <string name="enroll_in_standard">Enroll in standard</string>
+    <string name="roll_no">Roll no</string>
+    <string name="student_login">Student login</string>
+    <string name="time_table">Time table</string>
+    <string name="notice">Notice</string>
+    <string name="attendance">Attendance</string>
+    <string name="homework">Homework</string>
+    <string name="syllabus">Syllabus</string>
+    <string name="login">Login</string>
+    <string name="name">Name</string>
+    <string name="class_timetable">Class timetable</string>
+    <string name="notice_board">Notice board</string>
+    <string name="student_name">Student name</string>
+    <string name="complete_given_homework">Complete given homework</string>
+    <string name="upload_timetable">Upload timetable</string>
+    <string name="notice_title">Notice title</string>
+    <string name="notice_content">Notice content</string>
+    <string name="submit_notice">Submit notice</string>
+    <string name="save_attendance">Save attendance</string>
+    <string name="date_yyyy_mm_dd">Date (yyyy_mm_dd)</string>
+    <string name="description">Description</string>
+    <string name="title">Title</string>
+    <string name="add_homework">Add homework</string>
+    <string name="upload_syllabus_pdf">Upload Syllabus PDF</string>
+    <string name="school_address">School address</string>
+    <string name="previous_year_details">Previous year details</string>
+    <string name="no_previous_school">No previous school</string>
+    <string name="submit">Submit</string>
+    <string name="grade">Grade</string>
+    <string name="percentage">Percentage</string>
+    <string name="student_id">Student ID</string>
+    <string name="birth_date_dd_mm_yyyy">Birth Date (dd/mm/yyyy)</string>
+    <string name="classs">Class</string>
+    <string name="teacher_name">Teacher name</string>
+    <string name="marksheet">Marksheet</string>
+    <string name="upload_pdf">Upload PDF</string>
+    <string name="select_pdf">Select PDF</string>
+    <string name="Upload_pdf">Upload PDF</string>
+    <string name="select_class">string class</string>
+    <string name="select_your_class">Select your class</string>
+    <string name="class_2_syllabus">Class 2 Syllabus</string>
+    <string name="playgroup_syllabus_image">Playgroup Syllabus Image</string>
+    <string name="view_attendance">View Attendance</string>
+
+
+    <!-- Class array for Spinner -->
+    <string-array name="class_array">
+        <item>Playgroup</item>
+        <item>Class 1</item>
+        <item>Class 2</item>
+        <item>Class 3</item>
+        <item>Class 4</item>
+    </string-array>
+
+
+</resources>
+
+

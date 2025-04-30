@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:scrollbars="vertical"
+    tools:context=".studentlogin"
+    tools:ignore="VisualLintBounds"
+    android:background="@drawable/border">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="match_parent"
+            android:layout_height="120dp"
+            android:layout_marginTop="20dp"
+            android:src="@drawable/studenticon"
+            tools:ignore="ContentDescription,ImageContrastCheck" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:layout_marginTop="20dp"
+            android:text="@string/student_login"
+            android:textAlignment="center"
+            android:textColor="@color/purple"
+            android:textSize="25sp"
+            android:textStyle="bold"
+            tools:ignore="TextSizeCheck" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:layout_marginTop="20dp"
+            android:text="@string/fill_all_the_details"
+            android:textColor="@color/black"
+            android:textAlignment="center"
+            android:textSize="20sp"
+            tools:ignore="TextSizeCheck"
+            />
+
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:autofillHints="name"
+            android:id="@+id/etName"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/border"
+            android:hint="@string/enter_your_name"
+            android:textColor="@color/black"
+            android:textColorHint="@color/black"
+            android:inputType="textPersonName"
+            android:paddingStart="20dp"
+            tools:ignore="RtlSymmetry,VisualLintTextFieldSize" />
+
+        <EditText
+            android:id="@+id/etRollNo"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/border"
+            android:hint="@string/roll_no"
+            android:textColor="@color/black"
+            android:inputType="number|text"
+            android:paddingStart="20dp"
+            android:textColorHint="@color/black"
+            tools:ignore="Autofill,RtlSymmetry,VisualLintTextFieldSize" />
+
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:autofillHints="name"
+            android:id="@+id/etFathersName"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/border"
+            android:hint="@string/father_name"
+            android:inputType="textPersonName"
+            android:paddingStart="20dp"
+            android:textColorHint="@color/black"
+            android:textColor="@color/black"
+            tools:ignore="RtlSymmetry,VisualLintTextFieldSize" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:autofillHints="name"
+            android:id="@+id/etMothersName"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/border"
+            android:hint="@string/mother_name"
+            android:inputType="textPersonName"
+            android:paddingStart="20dp"
+            android:textColorHint="@color/black"
+            android:textColor="@color/black"
+            tools:ignore="RtlSymmetry,VisualLintTextFieldSize" />
+
+
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/border"
+            android:id="@+id/etAge"
+            android:hint="@string/age"
+            android:textColor="@color/black"
+            android:inputType="number"
+            android:paddingStart="20dp"
+            android:textColorHint="@color/black"
+            tools:ignore="Autofill,RtlSymmetry,TextContrastCheck,VisualLintTextFieldSize" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/border"
+            android:id="@+id/etClass"
+            android:hint="@string/classs"
+            android:inputType="number"
+            android:textColor="@color/black"
+            android:paddingStart="20dp"
+            android:textColorHint="@color/black"
+            tools:ignore="Autofill,RtlSymmetry,TextContrastCheck,VisualLintTextFieldSize" />
+
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/border"
+            android:id="@+id/etBirthDate"
+            android:hint="@string/birth_date_dd_mm_yyyy"
+            android:inputType="date"
+            android:textColor="@color/black"
+            android:paddingStart="20dp"
+            android:textColorHint="@color/black"
+            tools:ignore="Autofill,RtlSymmetry,VisualLintTextFieldSize" />
+
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="@drawable/border"
+            android:autofillHints="emailAddress"
+            android:hint="@string/enter_email"
+            android:layout_marginTop="20dp"
+            android:id="@+id/etEmail"
+            android:textColor="@color/black"
+            android:inputType="textEmailAddress"
+            android:textColorHint="@color/black"
+            android:drawableStart="@drawable/baseline_email_24"
+            android:drawablePadding="30dp"
+            android:paddingStart="20dp"
+            tools:ignore="RtlSymmetry,VisualLintTextFieldSize" />
+
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="@drawable/border"
+            android:autofillHints="password"
+            android:id="@+id/etPassword"
+            android:hint="@string/password"
+            android:layout_marginTop="20dp"
+            android:textColor="@color/black"
+            android:textColorHint="@color/black"
+            android:drawableStart="@drawable/baseline_lock_24"
+            android:drawablePadding="30dp"
+            android:paddingStart="20dp"
+            tools:ignore="RtlSymmetry,VisualLintTextFieldSize"
+            android:inputType="textPassword"/>
+
+        <EditText
+            android:id="@+id/etRePassword"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginTop="20dp"
+            android:autofillHints="re-password"
+            android:background="@drawable/border"
+            android:drawableStart="@drawable/baseline_lock_24"
+            android:drawablePadding="30dp"
+            android:hint="@string/re_password"
+            android:inputType="textPassword"
+            android:paddingStart="20dp"
+            android:textColor="@color/black"
+            android:textColorHint="@color/black"
+            tools:ignore="RtlSymmetry,VisualLintTextFieldSize,TouchTargetSizeCheck" />
+
+
+        <Button
+            android:id="@+id/btnNext"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:text="@string/nextb"
+            android:textSize="16sp"
+            tools:ignore="VisualLintButtonSize"
+            android:layout_marginBottom="20dp"
+            android:layout_marginTop="30dp"/>
+
+    </LinearLayout>
+
+</ScrollView>

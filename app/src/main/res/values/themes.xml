@@ -1,0 +1,9 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.SchoolManagement" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customize your light theme here. -->
+        <item name="colorPrimary">@color/light_purple</item>
+    </style>
+
+    <style name="Theme.SchoolManagement" parent="Base.Theme.SchoolManagement" />
+</resources>

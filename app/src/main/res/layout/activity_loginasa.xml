@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".loginasa"
+    android:orientation="vertical"
+    android:background="@drawable/school"
+
+    >
+
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100dp"
+        android:fontFamily="casual"
+        android:text="@string/login_as_a"
+        android:textAlignment="center"
+        android:textSize="30sp"
+        android:textColor="@color/black"
+        android:textStyle="bold|italic" />
+
+    <Button
+        android:id="@+id/teacherb"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginTop="380dp"
+        android:fontFamily="monospace"
+        android:text="@string/teacher"
+        android:textSize="16sp"
+        tools:ignore="VisualLintButtonSize" />
+
+    <Button
+        android:id="@+id/student_button"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginTop="20dp"
+        android:fontFamily="monospace"
+        android:text="@string/student"
+        android:textSize="16sp"
+        tools:ignore="VisualLintButtonSize" />
+</LinearLayout>

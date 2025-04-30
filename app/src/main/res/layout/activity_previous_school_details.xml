@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".previous_school_detail"
+    android:orientation="vertical"
+    android:background="@drawable/border"
+
+    >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_margin="20dp">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:layout_marginTop="50dp"
+            android:text="Fill previous school details"
+            android:textAlignment="center"
+            android:textSize="20sp"
+            tools:ignore="TextSizeCheck"
+            android:textColor="@color/heading"
+            android:textStyle="bold"
+            />
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:importantForAccessibility="no"
+            android:src="@drawable/logos"
+            tools:ignore="ContentDescription" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:layout_marginTop="20dp"
+            android:autofillHints=""
+            android:background="@drawable/border"
+            android:hint="School name"
+            android:inputType="textPersonName"
+            android:paddingStart="20dp"
+            android:textColorHint="#546E7A"
+            tools:ignore="RtlSymmetry,VisualLintTextFieldSize" />
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/border"
+            android:hint="@string/enroll_in_standard"
+            android:inputType="none"
+            android:paddingStart="20dp"
+            android:textColorHint="#546E7A"
+            tools:ignore="Autofill,RtlSymmetry,VisualLintTextFieldSize" />
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/border"
+            android:hint="@string/school_address"
+            android:inputType="textPostalAddress"
+            android:paddingStart="20dp"
+            android:textColorHint="#546E7A"
+            tools:ignore="Autofill,RtlSymmetry,VisualLintTextFieldSize" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:layout_marginTop="50dp"
+            android:text="@string/previous_year_details"
+            android:textAlignment="center"
+            android:textSize="20sp"
+            tools:ignore="TextSizeCheck"
+            android:textColor="@color/heading"
+            android:textStyle="bold"
+            />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/border"
+            android:hint="@string/enroll_in_standard"
+            android:inputType="text"
+            android:paddingStart="20dp"
+            android:textColorHint="#546E7A"
+            tools:ignore="Autofill,RtlSymmetry,VisualLintTextFieldSize" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/border"
+            android:hint="@string/percentage"
+            android:inputType="number"
+            android:paddingStart="20dp"
+            android:textColorHint="#546E7A"
+            tools:ignore="Autofill,RtlSymmetry,VisualLintTextFieldSize" />
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/border"
+            android:hint="@string/grade"
+            android:inputType="text"
+            android:paddingStart="20dp"
+            android:textColorHint="#546E7A"
+            tools:ignore="Autofill,RtlSymmetry,VisualLintTextFieldSize" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:text="@string/submit"
+            android:layout_marginTop="20dp"
+            android:textSize="16sp"/>
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:text="@string/no_previous_school"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="30dp"
+            android:textSize="16sp"/>
+    </LinearLayout>
+
+</ScrollView>
